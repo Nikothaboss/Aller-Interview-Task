@@ -32,7 +32,7 @@ export const AppWrapper = styled.div`
   }
 
   .article {
-    height: 380px;
+    /* height: 380px; */
     overflow: hidden;
     /* margin-bottom: 1rem; */
     position: relative;
@@ -42,8 +42,8 @@ export const AppWrapper = styled.div`
     flex: 0 1 auto;
     margin: 0.1rem;
     img {
-      width: 100%;
-      object-fit: cover;
+      /* width: 100%; */
+      /* object-fit: ; */
     }
 
     .title {

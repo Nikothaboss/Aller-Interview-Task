@@ -18,10 +18,6 @@ function App() {
     getData();
   }, []);
 
-  useEffect(() => {
-    console.log(edit);
-  }, [edit]);
-
   const handleEdit = (e) => {
     setEdit(e.target.id);
   };
@@ -37,7 +33,11 @@ function App() {
               <div className="row" key={idx}>
                 {d.columns.map((article, index) => {
                   return (
-                    <div className="article" key={index}>
+                    <div
+                      className="article"
+                      style={{ width: (width.large / 12) * article.width }}
+                      key={index}
+                    >
                       <div className="title">
                         {edit !== article.title && (
                           <>
