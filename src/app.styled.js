@@ -24,7 +24,7 @@ export const AppWrapper = styled.div`
   border: 1px solid red;
   max-width: 1023px;
   margin: auto;
-  padding: 0.5rem;
+  padding: 0.4rem;
 
   .row {
     display: flex;
@@ -32,9 +32,9 @@ export const AppWrapper = styled.div`
   }
 
   .article {
-    height: 400px;
+    height: 380px;
     overflow: hidden;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -56,5 +56,9 @@ export const AppWrapper = styled.div`
         font-size: 1.5rem;
       }
     }
+  }
+
+  textarea {
+    height: 90%;
   }
 `;
