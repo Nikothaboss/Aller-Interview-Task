@@ -1,3 +1,15 @@
+# Technologies
+- React
+- Styled Components
+- Axios
+
+## Notes
+I was tasked with making a function that could edit the titles of the articles. In this case I assumed that only ment to edit the titles on the client side. I didn't see any id's for me to use if I was going to make a patch request to the API, I was also not sure if I had permission to do so in the first place.
+
+This means that you can edit the titles only on client side and they will be restored back to normal if you reload the page.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
