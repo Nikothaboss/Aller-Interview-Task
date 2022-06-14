@@ -42,23 +42,34 @@ export const AppWrapper = styled.div`
     flex: 0 1 auto;
     margin: 0.1rem;
     img {
-      /* width: 100%; */
-      /* object-fit: ; */
+      width: 100%;
+      object-fit: cover;
     }
 
     .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       background: black;
       color: white;
       height: 100%;
       padding: 1rem;
 
       h2 {
-        font-size: 1.5rem;
+        /* height: 100%; */
+        font-size: 2rem;
+        text-align: center;
       }
     }
   }
 
   textarea {
     height: 90%;
+  }
+
+  button {
+    padding: 0.3rem;
+    margin-top: 1rem;
   }
 `;

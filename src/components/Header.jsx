@@ -4,6 +4,8 @@ const HeaderStyled = styled.header`
   background: #d60000;
   padding: 0.6rem;
   color: white;
+  display: flex;
+  justify-content: center;
 
   h2 {
     font-size: 1.2rem;
